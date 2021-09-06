@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# React-Linkedin-clone-v1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Linkedin's desktop homepage clone build using React functional components and Firestore database for storing user posts.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Link](#link)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Resources used](#resources-used)
+- [Author](#author)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Overview
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### The challenge
+ 
+ React usage
+ - Re-create Linkedin's homepage feed for desktop view using React functional components.
+ - Use React hooks such as 'useState' in relation to the changing state of the input field.
+ - Practice organizing components and styles for project appropriately.
+ - Use of importing & exporting components both from external libraries & self created.
 
-### `npm test`
+ Database usage
+ - Implement use of a database to store & display user posts.
+ - Display user posts in order of creation.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ Visual accuracy
+ - Recreate site components as accurately as possible using CSS BEM.
+ - Implementation of Material UI for icons. 
 
-### `npm run build`
+ Deployment 
+ - Push project online with its own working link.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Screenshot
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://user-images.githubusercontent.com/83171355/132227527-fc0d04ec-bc13-41bd-a7a8-a0bdc4ad20d1.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Link
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Live Site URL: https://linkedin-clone-10921.firebaseapp.com/
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## My process
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Built with
 
-## Learn More
+- HTML5
+- CSS 
+- React.js
+- Material UI
+- Flipmove animation library
+- Firebase
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### What I learned
 
-### Code Splitting
+ CSS 
+ - Usage of BEM convention. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ React
+ - Using self created functional components & corresponding style files across the project.
+ - Installing packages & using external libraries such as 'FlipMove'.
+ - Use of hooks 'useState' & 'useEffect' to set input & read & map posts.
+ 
+ Firebase
+ - Setting up firebase & installing into React project.
+ - Setting up a database & adding posts to it.
+ - Using methods such as 'orderBy', 'onSnapshot', 'setPosts' to correctly display posts.
+ 
+ 
 
-### Analyzing the Bundle Size
+### Improvements for next project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ Visual accuracy
+ - Build responsiveness with tablet & mobile views.
+ 
+ Site features
+ - Allow for post sorting feature.
+ - Allow for post liking & commenting features.
+ 
+ Login/SignUp authentification using Redux
+ - Create a functioning user auth page to allow new/exisiting users to login.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Resources used
 
-### Advanced Configuration
+ - React.js docs - https://reactjs.org/docs/getting-started.html
+ - CSS BEM 101 - https://css-tricks.com/bem-101/
+ - Linkedin clone with React.js - https://www.youtube.com/watch?v=QaYts9sPmcY&t=3749s
+ - Firebase docs - https://firebase.google.com/docs/
+ - Material UI docs - https://material-ui.com/getting-started/
+ - React Flip Move library - https://libraries.io/npm/react-flip-movecss 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+ Utkarsh Kaushik - https://medium.com/@ukaushik
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+ 
+
