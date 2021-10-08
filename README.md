@@ -39,7 +39,7 @@ Linkedin's desktop homepage clone build using React functional components and Fi
 
 ### Screenshot
 
-![image](https://user-images.githubusercontent.com/83171355/132227527-fc0d04ec-bc13-41bd-a7a8-a0bdc4ad20d1.png)
+![linkedin-clone](https://user-images.githubusercontent.com/83171355/136554640-bf932384-0823-4bfe-9384-a6183252c90e.png)
 
 
 ### Link
